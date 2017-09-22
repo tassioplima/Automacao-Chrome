@@ -10,6 +10,8 @@ public class ExecucaoChrome {
 	public static void main(String[] args) {
 		
 		executaChromeDriver();
+		
+		Pagina.acessaPagina(driver);
 			
 	}
 	
