@@ -8,6 +8,8 @@ public class ExecucaoChrome {
 		
 	static WebDriver driver;
 	
+	
+	
 	public static void main(String[] args) {
 		
 		//executaChromeDriver();
@@ -28,5 +30,7 @@ public class ExecucaoChrome {
 		System.setProperty("webdriver.gecko.driver" ,"C:\\Meu Robo\\geckodriver.exe");
 		driver = new FirefoxDriver();
 	}
+	
+	
 
 }
